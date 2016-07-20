@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="(Desafio)Cadastrar local" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_convide"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="Convide um Amigo" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/ic_device_hub_black_24dp"
+            android:title="Créditos Gratis" />
+
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_trending_flat_black_24dp"
+            android:title="Sair" />
+    </group>
+
+
+
+</menu>
